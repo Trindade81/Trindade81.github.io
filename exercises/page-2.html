@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lição Debugging HTML: só UM title e UMA description no head -->
+    <title>Purple Rain | Prince and The Revolution</title>
+    <meta name="description" content="A short page about Purple Rain, the 1984 album and film soundtrack by Prince and The Revolution.">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+
+        /* Fundo roxo copiado do Flat Design colour chart (Wisteria) */
+        body { background-color: #7d3c98; }
+
+        header {
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        section {
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        section h2 {
+            @apply mt-8;
+        }
+
+        section h3 {
+            @apply mt-6;
+        }
+
+        section p {
+            @apply mb-4;
+        }
+
+        /* Tipografia: fonte sem serifa, h1 centralizado, h2 em maiúsculas */
+        h1 {
+            @apply text-5xl md:text-7xl font-sans font-bold text-center leading-tight tracking-tighter;
+            color: white;
+        }
+
+        h2 {
+            @apply text-2xl md:text-3xl font-sans font-bold tracking-wide uppercase;
+            color: white;
+        }
+
+        p {
+            @apply text-lg md:text-xl leading-relaxed;
+            color: white;
+        }
+
+        a { color: white; @apply underline; }
+
+    </style>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/img/favicons/site.webmanifest">
+</head>
+
+
+
+<body>
+
+<header>
+    <!-- Só UM h1 por página -->
+    <h1>Purple Rain</h1>
+</header>
+
+<main>
+    <section>
+
+        <!-- Este título era um segundo h1 no arquivo original: virou h2 -->
+        <h2>Introduction</h2>
+
+        <p>Purple Rain is the sixth studio album by the American musician Prince, and the first credited to Prince and The Revolution. It was released by Warner Bros. Records in June 1984 as the soundtrack to the film of the same name.</p>
+
+        <p>The album produced several hit singles, including "When Doves Cry", "Let's Go Crazy" and the title track, "Purple Rain".</p>
+
+        <h2>Recording</h2>
+
+        <p>Most of the album was recorded in studios in California and Minnesota during 1983 and 1984. Some of the basic tracks, including the title song, came from a live concert Prince gave at the First Avenue nightclub in Minneapolis in August 1983.</p>
+
+        <h2>Reception</h2>
+
+        <p>Purple Rain spent many weeks at number one on the US Billboard 200 chart and went on to sell millions of copies worldwide. Prince won an Academy Award for the film's music, and the album is often listed among the greatest albums of all time.</p>
+
+        <p>Source: adapted from the Wikipedia article on <i>Purple Rain</i>.</p>
+
+        <p><a href="../index.html">Back to Home page</a></p>
+
+    </section>
+</main>
+
+</body>
+</html>
