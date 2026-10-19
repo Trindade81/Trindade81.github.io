@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael | Front-end Web Development Exercises</title>
+    <meta name="description" content="Hi, I'm Rafael, a Computer Science student at Dorset College Dublin. This site showcases the web pages I am building in my front-end development module.">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+
+        body { background-color: lightgreen; }
+
+        header {
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        section {
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        section h2 {
+            @apply mt-8;
+        }
+
+        section h3 {
+            @apply mt-6;
+        }
+
+        section p {
+            @apply mb-4;
+        }
+
+        /* Tipografia da página inicial */
+        h1 {
+            @apply text-5xl md:text-7xl font-sans font-bold tracking-tight;
+        }
+
+        header h2 {
+            @apply text-2xl md:text-3xl font-sans font-normal mt-2;
+        }
+
+        p {
+            @apply text-lg md:text-xl leading-relaxed;
+        }
+
+        /* Imagem do cabeçalho */
+        header img {
+            @apply w-full max-w-3xl mb-8 rounded-xl;
+        }
+
+        a { color: darkgreen; @apply underline; }
+
+    </style>
+
+    <!-- Favicons: aqui o caminho começa direto em assets/, sem ../ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+</head>
+
+
+
+<body>
+
+<header>
+    <img src="assets/img/home-banner.jpg" alt="Abstract illustration of a code editor window">
+    <h1>Hi, I'm Rafael</h1>
+    <h2>Computer Science Student</h2>
+</header>
+
+<main>
+    <section>
+
+        <p>I created this website to showcase the web pages I am building in my front-end development module.</p>
+
+        <!-- Links para as páginas da pasta exercises -->
+        <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
+        <p><a href="exercises/page-2.html">Purple Rain</a></p>
+        <p><a href="exercises/page-3.html">Web Page with Sections</a></p>
+        <p><a href="exercises/page-4.html">Vincent van Gogh</a></p>
+        <p><a href="exercises/page-5.html">Irish Tourism</a></p>
+
+    </section>
+</main>
+
+</body>
+</html>
